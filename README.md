@@ -49,4 +49,49 @@ A simple real-time chat application built using Node.js, Express, and Socket.io.
 - Each user will have a unique color assigned to their messages, making it easier to distinguish between different users.
 
 ## Project Structure
+real-time-chat/
+│
+├── public/
+│ ├── index.html
+│ ├── styles.css
+│ └── chat.js
+│
+├── server.js
+├── package.json
+└── README.md
+
+### `public/index.html`
+
+The HTML file that defines the structure of the chat interface.
+
+### `public/styles.css`
+
+The CSS file that contains the styles for the chat interface.
+
+### `public/chat.js`
+
+The JavaScript file that handles the client-side socket connections and DOM manipulation.
+
+### `server.js`
+
+The main server file that sets up the Express server and Socket.io connections.
+
+## Contributing
+
+1. Fork the repository.
+2. Create your feature branch (`git checkout -b feature/your-feature`).
+3. Commit your changes (`git commit -am 'Add some feature'`).
+4. Push to the branch (`git push origin feature/your-feature`).
+5. Create a new Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- [Node.js](https://nodejs.org/)
+- [Express](https://expressjs.com/)
+- [Socket.io](https://socket.io/)
+
 
